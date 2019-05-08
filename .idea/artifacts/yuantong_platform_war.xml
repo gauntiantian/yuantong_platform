@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="yuantong_platform:war">
+    <output-path>$PROJECT_DIR$/yuantong_platform/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>yuantong_platform</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="yuantong_platform-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="yuantong_platform:war exploded" />
+    </root>
+  </artifact>
+</component>
